@@ -16,7 +16,7 @@ const App = () => {
 
   useEffect(() => {
     alanBtn({
-      key: '8017a7f20d4709d629e43ffe33d951b22e956eca572e1d8b807a3e2338fdd0dc/stage',
+      key: '64370f4c903e66c5b517887fefa45c1b2e956eca572e1d8b807a3e2338fdd0dc/stage',
       onCommand: ({ command, articles, number }) => {
         if (command === 'newHeadlines') {
           setNewsArticles(articles);
@@ -60,7 +60,7 @@ const App = () => {
           <Typography variant="body1" component="h2">
             Created by
             <a className={classes.link} href="https://www.linkedin.com/in/nithish-lemburu/"> Lemburu Nithish</a> -
-            
+            <a className={classes.link} href="https://www.youtube.com/channel/UCGWPiSVlrVGC1v8bnGRHLfg/?guided_help_flow=5"> LN</a>
           </Typography>
           
         </div>
